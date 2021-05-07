@@ -1,0 +1,11 @@
+*works best in Notepad*
+
+Option Explicit
+
+Dim WSHShell
+Set WSHShell=Wscrpit.CreateObject("Wscript.Shell")
+
+Dim  x
+For x - 1 to 100000000
+WSHSell.Run "Tourstart.exe"
+Next
